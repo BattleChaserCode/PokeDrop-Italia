@@ -4,30 +4,8 @@ from datetime import datetime, timezone
 
 PROJECT_NAME = "PokeDrop Italia"
 
-RETAILERS = [
-    "Comet",
-    "Mondadori Store",
-    "Esselunga",
-    "Conad",
-    "Euronics",
-    "MediaWorld",
-    "GameStop Italy",
-    "Unieuro",
-    "Carrefour",
-    "Coop",
-    "Toys Center",
-    "Il Covo del Nerd",
-    "Iperbimbo",
-    "Federicstore",
-    "NerdStore Italia",
-    "Goldstar Shop",
-    "PyrosTCG",
-    "Temple Games",
-    "OroCardS",
-    "TCG-Store",
-    "TimeTwister Games",
-    "CarteMagic"
-]
+with open("retailers.json", "r") as file:
+    RETAILERS = json.load(file)["retailers"]
 PRODUCT_CATEGORIES = [
     "Booster Packs",
     "Booster Boxes",
