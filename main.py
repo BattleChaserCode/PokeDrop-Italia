@@ -6,17 +6,28 @@ PROJECT_NAME = "PokeDrop Italia"
 
 RETAILERS = [
     "Comet",
-    "Mondadori",
+    "Mondadori Store",
     "Esselunga",
     "Conad",
     "Euronics",
     "MediaWorld",
-    "GameStop",
+    "GameStop Italy",
     "Unieuro",
     "Carrefour",
-    "Coop"
+    "Coop",
+    "Toys Center",
+    "Il Covo del Nerd",
+    "Iperbimbo",
+    "Federicstore",
+    "NerdStore Italia",
+    "Goldstar Shop",
+    "PyrosTCG",
+    "Temple Games",
+    "OroCardS",
+    "TCG-Store",
+    "TimeTwister Games",
+    "CarteMagic"
 ]
-
 PRODUCT_CATEGORIES = [
     "Booster Packs",
     "Booster Boxes",
