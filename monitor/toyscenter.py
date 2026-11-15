@@ -55,5 +55,5 @@ def check_toyscenter():
 
     print("Products found:", len(found))
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     check_toyscenter()
